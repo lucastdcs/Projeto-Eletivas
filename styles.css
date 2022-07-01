@@ -55,12 +55,6 @@ main {
     transition: 100ms;
 }
 
-.arrowUp:hover {
-    opacity: 0.9;
-    border-radius: 50%;
-    transform: scale(103%);
-}
-
 .arrowUp img {
     width: 30px;
 }
@@ -346,6 +340,109 @@ footer img:hover {
     }
     ul li {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    header .green-div {
+        border-radius: 2rem;
+        height: 100%;
+    }
+    .apresentation img {
+        width: 250px;
+    }
+    .apresentation .wrapper h2 {
+        font-size: 20px;
+    }
+    .wrapper h2 {
+        font-size: 20px;
+    }
+    ul {
+        flex-wrap: wrap;
+    }
+    ul li {
+        font-size: 10px;
+    }
+    .wrapper {
+        padding: 0;
+    }
+    .wrapper p {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 14px
+    }
+    .steps .green-div:nth-child(2) {
+        width: 100%;
+        padding: 1rem 2rem;
+        border-radius: 0px;
+        grid-area: B;
+        justify-self: flex-start;
+        margin: 0;
+        border-radius: 3rem;
+    }
+    .steps .green-div:nth-child(3) {
+        width: 100%;
+        padding: 1rem 2rem;
+        border-radius: 0px;
+        grid-area: C;
+        justify-self: flex-end;
+        margin: 0;
+        border-radius: 3rem;
+        font-size: 18px;
+    }
+    .steps .green-div:nth-child(4) {
+        width: 100%;
+        padding: 1rem 2rem;
+        border-radius: 0px;
+        grid-area: D;
+        justify-self: flex-start;
+        margin: 0;
+        border-radius: 3rem;
+    }
+    .steps .green-div h2 {
+        font-size: 18px;
+    }
+    .the-job .green-div {
+        justify-content: center;
+        align-items: center;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    button {
+        width: 50%;
+        min-width: 100px;
+    }
+    main {
+        padding: 1rem;
+    }
+    h1 {
+        font-size: 12px;
+    }
+    .arrowUp {
+        width: 10px;
+        height: 30px;
+        border-radius: 40rem;
+        padding: 0;
+    }
+    .arrowUp img {
+        width: 20px;
+        margin: 0;
+    }
+    .students .green-div {
+        padding: 30px 15px;
+    }
+    .students .green-div img {
+        width: 1px;
+    }
+    button {
+        min-width: 47px;
     }
 }
 
