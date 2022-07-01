@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <link rel="stylesheet" href="styles.css">
@@ -15,16 +15,17 @@
 <body>
     <div class="bgImage"></div>
     <main>
-        <div class="home">
+        <button class="arrowUp"><img src="assets/up-arrow-svgrepo-com.svg" alt=""></button>
+        <section class="home">
             <header>
                 <div class="green-div">
                     <nav>
                         <h1>3<span>°</span>A</h1>
                         <ul>
-                            <li>Home</li>
-                            <li>O trabalho</li>
-                            <li>Como foi feito?</li>
-                            <li>Alunos</li>
+                            <li class="homeButton">Home</li>
+                            <li class="theJobButton">O trabalho</li>
+                            <li class="stepsButton">Como foi feito?</li>
+                            <li class="studentsButton">Alunos</li>
                         </ul>
                     </nav>
                 </div>
@@ -32,17 +33,100 @@
 
             <div class="apresentation">
                 <div class="wrapper">
-                    <p>Encontre</p>
-                    <h2>As melhores opções
-                        <br> para você!</h2>
-                    <button>Começar</button>
+                    <p>Marie Curie</p>
+                    <h2>“Na vida, não existe nada<br> a temer, mas a entender.”
+                    </h2>
                 </div>
 
                 <img src="assets/homeImage.svg" alt="Imagem de um circuito eletrônico">
             </div>
 
-        </div>
+        </section>
+        <section class="the-job">
+            <div class="green-div">
+                <div class="wrapper">
+                    <h2>O trabalho</h2>
+
+                    <p>
+                        Precisavamos escolher um tema atual para desenvolver nosso projeto da eletiva. Pensando que o mercado de desenvolvimento web e design está em alta nos dias de hoje, escolhemos construir um site do completo zero. Além do mais, colocamos como meta principal,
+                        aprender a fazer isso sem utilizar ferramentas que criam sites, ou UI's. Ou seja, desenvolvemos este site do jeito "raiz", colocando a mão na massa (ou no código).
+                    </p>
+
+                    <button onclick="javascript:window.location.href='https://imasters.com.br/noticia/alta-demanda-faz-profissionais-de-programacao-se-tornarem-cada-vez-mais-atraentes'">Saiba
+                        mais</button>
+                </div>
+                <img src="assets/icons.svg" alt="Ícones de tecnologia">
+
+            </div>
+        </section>
+        <section class="steps">
+            <h2>Como foi feito?</h2>
+
+            <div class="green-div">
+                <div class="wrapper">
+                    <h2>Pesquisa e briefing</h2>
+                    <p>A primeira etapa da construção de um site é fundamentalmente a mais importante, já que sem ela, o site não existiria. Por quê? porque ela é a etapa em que é estabelecido qual será o conteúdo proposto pelo site, e qual será a função
+                        do mesmo.</p>
+                </div>
+            </div>
+            <div class="green-div">
+
+                <div class="wrapper">
+                    <h2>Projeto</h2>
+                    <p>Etapa onde são estabelecidos as propriedades e informações da página a ser desenvolvida. Este foi o momento onde decidimos qual seria o layout, UI, e conteúdo (textos) do site. Como adicional, devemos lembrar que está deve ser uma
+                        etapa estritamente organizada e bem elaborada, já que tudo aquilo que for definido irá para as mãos dos desenvolvedores.</p>
+
+                </div>
+
+            </div>
+            <div class="green-div">
+                <div class="wrapper">
+                    <h2>Desenvolvimento</h2>
+                    <p>Esta é a fase onde os programadores começam a trabalhar nos códigos que irão formar o produto final. Usando as linguagens mais utilizadas no mercado, como HTML, CSS e JavaScript (que foram as utilizadas para o desenvolvimento deste),
+                        os desenvolvedores (devs) trabalham com concentração e organização para evitar erros e bugs desnecessários. Vale destacar que, na maioria das vezes, o desenvolvedor gasta a maior parte do tempo pensando e estruturando, do que efetivamente
+                        escrevendo linhas de código.</p>
+
+                </div>
+            </div>
+            <button onclick="javascript:window.location.href='https://imasters.com.br/desenvolvimento/etapas-produtivas-de-um-website'">Saiba
+                mais</button>
+        </section>
+        <section class="students">
+            <h2>Alunos</h2>
+
+            <div class="green-div">
+                <div class="wrapper">
+                    <img src="assets/myAvatarPicture.jpg" alt="">
+                    <p>Lucas Teixeira <br> (Desenvolvimento)</p>
+                </div>
+                <div class="wrapper">
+                    <img src="assets/malala.jpeg" alt="">
+                    <p>Mayara Batista <br> (Desenvolvimento <br>- Assisntente de Design)</p>
+                </div>
+                <div class="wrapper">
+                    <img src="assets/pedro.jpeg" alt="">
+                    <p>Pedro Campos <br> (Projeto)
+                    </p>
+                </div>
+                <div class="wrapper">
+                    <img src="assets/ysa.jpeg" alt="">
+                    <p>Ysabela Sabrino <br> (Pesquisa e briefing)</p>
+                </div>
+
+
+
+
+
+            </div>
+        </section>
+        <footer>
+            <img src="assets/giovani.jpeg" alt="">
+            <p>Prof. <strong>Giovani</strong></p>
+        </footer>
     </main>
+    <script src="index.js"></script>
+
+    <!-- desenvolvido por: Lucas Teixeira -->
 </body>
 
 </html>
